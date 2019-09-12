@@ -3,21 +3,21 @@
 ## Comandos a usar
 
 * Listart todos los componentes para kubernetes
-kubectl get all 
+  * kubectl get all 
 
 * Ejecutar un archivo yaml 
- * kubectl apply -f file.yml
- * kubectl apply -f /DIR/
+  * kubectl apply -f file.yml
+  * kubectl apply -f /DIR/
 
 * Listar Nodos:
- * kubectl get nodes
- * kubectl get nodes -o wide 
+  * kubectl get nodes
+  * kubectl get nodes -o wide 
 
 * Listar Namespaces:
- * kubectl get ns 
+  * kubectl get ns 
 
-*Listart Servicios:
- * kubectl get svc
+* Listart Servicios:
+  * kubectl get svc
 
 ## Desplegando componentes para Kubernetes
 
@@ -35,6 +35,6 @@ solo afecten a los pods relacionados a este Namespace.
 
 OBSERVACION:
 * Una Namespace es un "Sub-Cluster"  
-* Si queremos crear varios namespaces en un solo fichero: 
- * kubectl apply -f 00-config-namespaces-all.yml
+  * Si queremos crear varios namespaces en un solo fichero: 
+  * kubectl apply -f 00-config-namespaces-all.yml
 
