@@ -6,18 +6,18 @@
 kubectl get all 
 
 * Ejecutar un archivo yaml 
-kubectl apply -f file.yml
-kubectl apply -f /DIR/
+ * kubectl apply -f file.yml
+ * kubectl apply -f /DIR/
 
-*Listar Nodos:
-kubectl get nodes
-kubectl get nodes -o wide 
+* Listar Nodos:
+ * kubectl get nodes
+ * kubectl get nodes -o wide 
 
-*Listar Namespaces:
-kubectl get ns 
+* Listar Namespaces:
+ * kubectl get ns 
 
 *Listart Servicios:
-kubectl get svc
+ * kubectl get svc
 
 ## Desplegando componentes para Kubernetes
 
@@ -34,7 +34,7 @@ Esto nos creara un "espacio de trabajo" llamado TEST, y con esto podemos crear l
 solo afecten a los pods relacionados a este Namespace. 
 
 OBSERVACION:
-*Una Namespace es un "Sub-Cluster"  
-*Si queremos crear varios namespaces en un solo fichero: 
-kubectl apply -f 00-config-namespaces-all.yml
+* Una Namespace es un "Sub-Cluster"  
+* Si queremos crear varios namespaces en un solo fichero: 
+ * kubectl apply -f 00-config-namespaces-all.yml
 
