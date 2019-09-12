@@ -2,7 +2,12 @@
 
 Introducción a kubernetes, usando namespace, labels, replicaset, deployment.
 
-# Arquitectura 
+## Objetivos
 
+* Entender los conceptos relacionados a kubernetes.
+* Conocer los comandos basicos.
+
+## Requisitos:
 Minikube
+
 
