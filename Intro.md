@@ -1,5 +1,5 @@
 # Intro Kubernetes
-#######
+#####
 
 Para empezar a trabajar con Kubernetes, vamos a plantear la siguiente arquitectura:
 
