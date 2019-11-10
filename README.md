@@ -9,5 +9,5 @@ Introducción a kubernetes, usando namespace, labels, replicaset, deployment.
 
 ## Requisitos:
 - Minikube
-- [play with kubernetes]("https://labs.play-with-k8s.com")
+- [play with kubernetes](https://labs.play-with-k8s.com)
 
