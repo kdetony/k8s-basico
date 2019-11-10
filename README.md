@@ -7,7 +7,7 @@ Introducción a kubernetes, usando namespace, labels, replicaset, deployment.
 * Entender los conceptos relacionados a kubernetes.
 * Conocer los comandos basicos.
 
-## Requisitos:
+### Requisitos:
 - Minikube
 - [play with kubernetes](https://labs.play-with-k8s.com)
 

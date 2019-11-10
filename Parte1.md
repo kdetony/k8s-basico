@@ -2,12 +2,12 @@
 
 ## Comandos a usar
 
-* Listart todos los componentes para kubernetes
-  > kubectl get all 
+* Listar todos los componentes para kubernetes
+> kubectl get all 
 
 * Ejecutar un archivo yaml 
-  > kubectl apply -f file.yml
-  > kubectl apply -f /DIR/
+> kubectl apply -f file.yml
+> kubectl apply -f /DIR/
 
 * Listar Nodos:
   * kubectl get nodes
