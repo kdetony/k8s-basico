@@ -1,11 +1,15 @@
 # Intro Kubernetes
-#######
+#####
 
 Para empezar a trabajar con Kubernetes, vamos a plantear la siguiente arquitectura:
 
 1 Master
 
 2 Nodes - Workers
+
+Vamos a trabajar con Minikube o tambien en Play With Kubernetes:
+
+[Play With K8s](https://labs.play-with-k8s.com)
 
 ### OBS.
 Para trabajar con kubernetes, debemos contar con un contenedor como Docker, RKT, ContainerD, Cri-O
