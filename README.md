@@ -8,6 +8,6 @@ Introducción a kubernetes, usando namespace, labels, replicaset, deployment.
 * Conocer los comandos basicos.
 
 ## Requisitos:
-Minikube
-
+- Minikube
+- )play with kubernetes)["https://labs.play-with-k8s.com/"]
 
