@@ -17,7 +17,7 @@ Para trabajar con kubernetes, debemos contar con un contenedor como Docker, RKT,
 
 ## Diagrama K8s Base
 
-![Arquitectura](/ruta/a/la/k8s-base.jpg)
+![Arquitectura](https://github.com/kdetony/k8s-basico/blob/master/images/k8s-base.jpg)
 
 
 
