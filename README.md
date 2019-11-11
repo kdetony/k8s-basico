@@ -4,7 +4,8 @@ Introducción a kubernetes, topicos a tocar: namespace, labels, replicaset, depl
 
 ## Objetivos
 
-* Entender los conceptos relacionados a kubernetes.
+* Arquitectura kuberentes.
+* Entender los conceptos basicos de kubernetes.
 * Conocer los comandos basicos.
 
 ### Requisitos:
