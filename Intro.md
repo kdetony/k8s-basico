@@ -19,17 +19,21 @@ Para trabajar con kubernetes, debemos contar con un contenedor como Docker, RKT,
 
 ![Arquitectura](https://github.com/kdetony/k8s-basico/blob/master/images/k8s-base.jpg)
 
+## ESTRUCTURA DE KUBERNETES
+
+Para entender el funcionamiento de Kubernetes lo mejor es repasar los conceptos y verlo de una forma gráfica:
+
+### Pod: es una abstracción de un grupo de contenedores, agrupados en torno a elementos comunes como almacenamientos compartidos, una misma IP  e información compartida como qué puertos usar.
+    
+### Nodo: Los nodos son las máquinas en las que se ejecutan los contenedores.
+
+### Master: Es el coordinador del cluster, se encarga de escalar los contenedores, mantener las aplicaciones en el estado deseado, hacer actualizaciones de los despliegues.
 
 
+## Trabajando con K8S
 
 
-
-
-
-
-
-
-## En el Nodo Master:
+### En el Nodo Master:
 
 1) Inicializamos el Rol Master
 >kubeadm init --apiserver-advertise-address $(hostname -i)
