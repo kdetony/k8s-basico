@@ -1,6 +1,6 @@
 # k8s-Basico
 
-Introducción a kubernetes, usando namespace, labels, replicaset, deployment.
+Introducción a kubernetes, topicos a tocar: namespace, labels, replicaset, deployment.
 
 ## Objetivos
 
