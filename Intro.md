@@ -14,7 +14,22 @@ Vamos a trabajar con Minikube o tambien en Play With Kubernetes:
 ### OBS.
 Para trabajar con kubernetes, debemos contar con un contenedor como Docker, RKT, ContainerD, Cri-O
 
-En el Nodo Master:
+
+## Diagrama K8s Base
+
+![Arquitectura](/ruta/a/la/k8s-base.jpg)
+
+
+
+
+
+
+
+
+
+
+
+## En el Nodo Master:
 
 1) Inicializamos el Rol Master
 >kubeadm init --apiserver-advertise-address $(hostname -i)
