@@ -53,11 +53,3 @@ Es el coordinador del cluster, se encarga de escalar los contenedores, mantener 
 
 4) Usaremos este TOKEN para añadir los nodos al cluster:
 >kubeadm join 192.168.0.28:6443 --token j4bv4x.5ipdxeifs99jyh1p --discovery-token-ca-cert-hash sha256:f232f016816d999ce48597b367d4585bade1749dc9c2462e4fc48200ceb58be6
-
-## Chuletas para K8S:
-
-Para listar los nodos que son parte del cluster:
->kubectl get Nodes
-
-Para obtener un mayor detalle, por ejm. ver la version del runtime del contenedor:
->kubectl get nodes -o wide
