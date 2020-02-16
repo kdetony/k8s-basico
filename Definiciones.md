@@ -1,5 +1,5 @@
 Terminología
-#################
+#######
 
 Vamos a trabajar en la siguiente ruta: **/opt/kubernetes**, para crear la carpeta ejecutamos:
 
